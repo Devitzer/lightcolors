@@ -1,0 +1,19 @@
+{
+  "name": "lightcolors",
+  "version": "0.1.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
