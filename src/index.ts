@@ -4,6 +4,7 @@ function detectColorMode(): ColorMode {
   if (!process.stdout.isTTY) return 'none';
 
   const depth = process.stdout.getColorDepth();
+  if (process.argv.includes("--no-color") || process.env.NO_COLOR) return "none"
   if (depth >= 24) return 'truecolor';
   if (depth >= 8) return '256';
   if (depth >= 4) return 'basic';
