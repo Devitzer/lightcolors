@@ -61,4 +61,3 @@ export function white(text: string): string {
 // UNCOMMENT LINES BELOW FOR BASIC COLORS TEST
 // console.log("Basic Colors");
 // console.log(red("Red"), green("Green"), yellow("Yellow"), blue("Blue"), magenta("Magenta"), cyan("Cyan"), white("White"));
-
