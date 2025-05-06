@@ -1,7 +1,7 @@
 {
   "name": "lightcolors",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.2.0",
+  "description": "The lighest JS color library.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
     "@tsconfig/node-lts": "^22.0.1",
-    "@types/node": "^22.15.3",
+    "@types/node": "^22.15.10",
     "typescript": "^5.8.3"
   }
 }
